@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">template-android-app</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="dob">Date of Birth</string>
+    <string name="country">Country</string>
+    <string name="loading">Loading</string>
+    <string name="content_description_avatar">Avatar</string>
+    <string name="content_description_filter">Filter</string>
+    <string name="content_description_img_btn_close">Button Close</string>
+    <string name="content_description_fab">FAB</string>
+    <string name="btn_gender">Gender</string>
+    <string name="btn_reset">Gender</string>
+    <string name="btn_nationality">Nationality</string>
+    <string name="edt_name">Name</string>
+</resources>

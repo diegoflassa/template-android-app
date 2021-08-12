@@ -101,24 +101,4 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
-libs/
-lint.xml
-twitter-api-keys.txt
-src/main/res/raw/
-/Little Drops Of Rain.zip
-app/google-services.json
-app/src/main/res/raw/littledropsofrain_site_firebase_adminsdk_9dvd0_c718bc2981.json
-app/release/
-.idea/sonarlint/
-deployment_cert.der
-little-drops-of-rain.2020-09-20.private-key.pem
-app/src/main/res/values/api_keys.xml
-app/version.properties
-gradleErrors.txt
-gradleLogs.txt
-gradle.log
-keystore.properties
-version.properties
-presentation/google-services.json
-presentation/src/main/res/raw/littledropsofrain_site_firebase_adminsdk_9dvd0_c718bc2981.json
-presentation/src/main/res/values/api_keys.xml
+/src/main/res/raw/littledropsofrain_72ae8_firebase_adminsdk_jsxhc_7bdfe4ab91.json
