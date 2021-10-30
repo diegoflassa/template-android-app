@@ -9,7 +9,7 @@ plugins {
     id("kotlin-parcelize")
     id("kotlin-kapt")
     id("androidx.navigation.safeargs.kotlin")
-    //id("dagger.hilt.android.plugin")
+    id("dagger.hilt.android.plugin")
 }
 
 // Creates a variable called keystorePropertiesFile, and initializes it to the
@@ -69,7 +69,7 @@ android {
         //compose = true
     }
     lint {
-        isAbortOnError = false
+        abortOnError = false
     }
 }
 
@@ -106,13 +106,9 @@ dependencies {
     // Dagger & Hilt
     implementation("com.google.dagger:hilt-android:${Versions.hilt}")
     kapt("com.google.dagger:hilt-android-compiler:${Versions.hilt}")
+    implementation("androidx.hilt:hilt-common:${Versions.hilt_other}")
+    kapt("androidx.hilt:hilt-compiler:${Versions.hilt_other}")
+    implementation("androidx.hilt:hilt-navigation-fragment:${Versions.hilt_other}")
+    implementation("androidx.hilt:hilt-work:${Versions.hilt_other}")
 
-    // Koin main features for Android (Scope,ViewModel ... )
-    implementation("io.insert-koin:koin-core:${Versions.koin}")
-    // Koin main features for Android (Scope,ViewModel ...)
-    implementation("io.insert-koin:koin-android:${Versions.koin}")
-    // Koin Android - experimental builder extensions
-    implementation("io.insert-koin:koin-android-ext:${Versions.koin_ext}")
-    // Koin for Jetpack WorkManager
-    implementation("io.insert-koin:koin-androidx-workmanager:${Versions.koin}")
 }
